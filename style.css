@@ -129,6 +129,10 @@ footer h5 {
 }
 
 
+.card_woka{
+    padding-top: 250px;
+}
+
 .Xamidjanov {
     text-align: center;
     color: #fff;
@@ -189,14 +193,26 @@ footer h5 {
         background: url(img/IMG_6157.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: 100% 39%;
+        background-size: 100% 36%;
     }
 
     .title_ang {
         color: rgb(79, 120, 255);
         font-weight: 900;
-        font-size: 27px;
-        margin-top: 100px;
+        font-size: 20px;
+        margin-top: -128px;
+        /* margin-top: 100px; */
+        text-align: center;
+    }
+    .btn_group{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn_woka{
+        width: 250px;
+        font-size: 15px;
+        margin: auto;
     }
 
 }
