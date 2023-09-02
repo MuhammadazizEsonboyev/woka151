@@ -193,7 +193,7 @@ footer h5 {
         background: url(img/IMG_6157.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
 
     .title_ang {
