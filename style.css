@@ -1,0 +1,187 @@
+:root {
+    --mavi: #6bc1f1
+}
+
+header {
+    background: url('img/IMG_6157.jpg') center/cover;
+    background-attachment: fixed;
+}
+
+.bg-mavi {
+    background-color: var(--mavi)
+}
+
+.bg-goy {
+    background-color: #072035;
+}
+
+.bg-boz {
+    background-color: #f1f1f1
+}
+
+.text-mavi {
+    color: var(--mavi)
+}
+
+.vh-50 {
+    min-height: 50vh;
+}
+
+.features:hover {
+    opacity: .5;
+}
+
+.serviceimgs {
+    width: 100px;
+    height: 100px;
+}
+
+.carousel-caption,
+.carousel-item {
+    height: 200px;
+}
+
+.carousel-indicators {
+    gap: 10px;
+}
+
+.carousel-indicators button {
+    transition: 1s !important;
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 50%;
+    -webkit-transition: 1s !important;
+    -moz-transition: 1s !important;
+    -ms-transition: 1s !important;
+    -o-transition: 1s !important;
+}
+
+.carousel-indicators button.active {
+    transition: 1s !important;
+    width: 50px !important;
+    height: 50px !important;
+    transform: scale(1.5);
+    -webkit-transition: 1s !important;
+    -moz-transition: 1s !important;
+    -ms-transition: 1s !important;
+    -o-transition: 1s !important;
+}
+
+.carousel-inner h6 {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.carousel-inner p {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+.card-title {
+    color: rgb(79, 120, 255);
+    font-weight: 900;
+}
+
+footer p {
+    opacity: 0.7;
+    font-size: 0.8rem;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+footer h5 {
+    margin-top: 40px;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Roboto";
+
+}
+
+
+
+
+.bt1 {
+    background: url("img/dinar.png") center/cover;
+}
+
+.bt2 {
+    background: url("img/woka151.png") center/cover;
+}
+
+.bt3 {
+    background: url("img/xijob.png") center/cover;
+}
+
+.bt4 {
+    background: url("img/qodirali.png") center/cover;
+}
+
+.bt5 {
+    background: url("img/asqar.png") center/cover;
+}
+
+.bt6 {
+    background: url("img/qiz1.png") center/cover;
+}
+
+
+.Xamidjanov {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+
+.Xamidjanov span {
+    color: orange;
+}
+
+
+.doctoe {
+    font-size: 22px;
+    padding-top: 20px;
+    font-weight: 700;
+    color: #6bc1f1;
+}
+
+
+.phone_number {
+    text-align: center;
+    color: #6bc1f1;
+    font-weight: 300;
+}
+
+
+.fa-brands {
+    color: #8a3ab9;
+}
+
+
+.fa-telegram {
+    color: #0088cc;
+}
+
+.fa-solid {
+    color: black;
+}
+
+
+@media (max-width:556px) {
+    .carousel-indicators button {
+        transition: 1s !important;
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 50%;
+        -webkit-transition: 1s !important;
+        -moz-transition: 1s !important;
+        -ms-transition: 1s !important;
+        -o-transition: 1s !important;
+    }
+}
